@@ -12,7 +12,7 @@ import java.util.List;
 @Configuration
 public class CorsConfig {
 
-    @Value("${app.cors.allowed-origins:https://donotforgetapps.netlify.app/}")
+    @Value("${app.cors.allowed-origins:https://donotforgetapps.netlify.app}")
     private String allowedOrigins;
 
     @Bean
